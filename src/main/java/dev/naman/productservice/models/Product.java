@@ -7,8 +7,6 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@AllArgsConstructor
-@NoArgsConstructor
 public class Product extends BaseModel {
     private String title;
     private String description;

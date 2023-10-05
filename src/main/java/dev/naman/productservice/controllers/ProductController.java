@@ -1,5 +1,6 @@
 package dev.naman.productservice.controllers;
 
+import dev.naman.productservice.dtos.ExceptionDto;
 import dev.naman.productservice.dtos.GenericProductDto;
 import dev.naman.productservice.exceptions.NotFoundException;
 import dev.naman.productservice.services.ProductService;
@@ -50,4 +51,6 @@ public class ProductController {
     public ResponseEntity<GenericProductDto> updateProductById(@PathVariable("id") Long id, @RequestBody GenericProductDto product) {
         return new ResponseEntity<>(productService.updateProductById(id, product), HttpStatus.OK );
     }
+
+
 }
