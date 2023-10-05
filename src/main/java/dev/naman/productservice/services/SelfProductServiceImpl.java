@@ -1,6 +1,7 @@
 package dev.naman.productservice.services;
 
 import dev.naman.productservice.dtos.GenericProductDto;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -20,10 +21,12 @@ public class SelfProductServiceImpl implements ProductService {
     public GenericProductDto deleteProductById(Long id) {
         return null;
     }
+
     @Override
-    public GenericProductDto updateProductById(Long id) {
+    public GenericProductDto updateProductById(Long id, GenericProductDto product) {
         return null;
     }
+
     @Override
     public GenericProductDto createProduct(GenericProductDto product) {
         return null;
