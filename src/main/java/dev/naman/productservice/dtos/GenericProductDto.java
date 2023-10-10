@@ -1,6 +1,5 @@
 package dev.naman.productservice.dtos;
 
-import dev.naman.productservice.models.Category;
 import lombok.Getter;
 import lombok.Setter;
 

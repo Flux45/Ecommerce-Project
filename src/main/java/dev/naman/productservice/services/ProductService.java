@@ -1,12 +1,12 @@
 package dev.naman.productservice.services;
 
-import dev.naman.productservice.dtos.GenericProductDto;
 import dev.naman.productservice.exceptions.NotFoundException;
-import org.springframework.http.ResponseEntity;
+import dev.naman.productservice.dtos.GenericProductDto;
 
 import java.util.List;
 
 public interface ProductService {
+
 
     GenericProductDto createProduct(GenericProductDto product);
 
